@@ -1,0 +1,58 @@
+<!Doctype <html>
+    <html lang="eng">
+        <head>
+            <meta charset="UTF-8">
+            <title>Student Enrollement Form</title>
+            <body>
+                <h1>STUDENT ENROLLEMENT FORM</h1>
+                <form>
+                   <fieldset>
+                       <legend>Personal Details</legend> 
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required maxlength="11"><br><br>
+
+                    <label for="date">Date of Birth:</label>
+                    <input type="date" id="date" name="date" required><br><br>
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+                   </fieldset><br>
+
+                   <fieldset>
+                       <legend>Account Details</legend>
+                    <label for="course">Course:</label>
+                    <select id="course" name="course" required>
+                        <option value="">Select</option>
+                        <option value="computer science">Computer Science</option>
+                        <option value="software engineering">Software Engineering</option>
+                        <option value="information technology">Information Technology</option>
+                        <option value="Mechatronics">Mechatronics</option>
+                    </select><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" placeholder="Enter your message here..."></textarea><br><br>
+                    
+                    <img src="images/your-image.jpg" 
+                    alt="Profile Picture of Cristiano Ronaldo" 
+                    width="200" 
+                    height="250"
+                    loading="lazy"><br><br>
+
+                    <label for="agreement">I agree to the terms and conditions:</label>
+                    <input type="checkbox" id="agreement" name="agreement" required><br><br>
+                    </fieldset><br>
+                    <button type="reset">Reset</button><br><br>
+                    <button type="submit">Submit</button>
+                </form> 
+            </body>          
