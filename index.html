@@ -1,0 +1,120 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my first web page">
+    <meta name="author" content="Olamide">
+    <title>My first webpage</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="media/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="media/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="media/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="media/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="media/favicon/site.webmanifest" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+ 
+<body>
+    <header>
+        <a href="/" class="logo">
+            <img src="media/INSURE.svg" alt="Company's logo'">
+        </a>
+        <nav class="links">
+            <a href="#">How we work</a>
+            <a href="#"> blog </a>
+            <a href="#" class="link_btn"> view plans </a>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- this the hero -->
+        <section class="hero">
+            <!-- left hand -->
+            <div class="hero_left_hand">
+                <span>
+                    <svg width="150" height="1" viewBox="0 0 150 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="150" height="1" fill="white"/>
+                    </svg>
+                </span>
+                <h1> Humanizing your insurance </h1>
+                <p> Get your life insurance coverage easier and faster. We blend our expertise and technology to help
+                    you find the plan
+                    that’s right for you. Ensure you and your loved ones are protected.</p>
+                <a href="#" class="link_btn white_btn">View plans</a>
+            </div>
+
+            <!-- right hand -->
+            <div class="hero_right_hand">
+                <img src="media/insure_foreground.png" alt="This is a family holding hands">
+            </div>
+        </section>
+
+     <!-- decorative images do not need alt text -->
+        <div class="left_hand_image">
+            <img src="media/left_background.svg" alt="" class="hideonmobile">
+            <img src="media/left_background_mobile.svg" alt="" class="showonmobile">
+        
+        </div>
+
+
+        <section>
+            <span></span>
+            <h2> We are different </h2>
+            <div>
+                <div>
+                    <div class="icon_wrapper">
+                        <svg width="23" height="32" viewBox="0 0 23 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 32H1.19452L22.2671 11.8541C22.5428 11.4978 22.3896 11.3197 21.8077 11.3197H13.1091L22.2671 0.534323C22.5428 0.178108 22.3284 0 21.6545 0H9.98497C9.64805 0 9.37239 0.118738 9.09674 0.356215L0.581946 15.0006C0.520689 15.3568 0.704461 15.5349 1.16389 15.5349H9.58679L0 32Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <h3>Snappy Process</h3>
+                    <p>Our application process can be completed in minutes, not hours. Don’t get stuck filling in
+                        tedious forms.</p>
+                </div>
+                <div>
+                    <div class="icon_wrapper">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 0C24.8379 0 32 7.16406 32 16C32 24.8359 24.8379 32 16 32C7.16406 32 0 24.8359 0 16C0 7.16406 7.16406 0 16 0ZM15.0586 6V7.74805C13.6562 7.9453 12.6289 8.48635 11.9766 9.37109C11.3242 10.2578 10.9961 11.2559 10.9961 12.3633C10.9961 13.207 11.1797 13.9492 11.5449 14.5859C11.9102 15.2207 12.3867 15.7148 12.9727 16.0664C13.5586 16.4218 14.3731 16.7774 15.4141 17.1387C16.5722 17.5488 17.3203 17.8868 17.6562 18.1543C17.9921 18.4199 18.1602 18.8125 18.1602 19.3301C18.1602 19.8301 17.9922 20.2558 17.6562 20.6094C17.3203 20.9629 16.7929 21.1387 16.0801 21.1387C14.5547 21.1387 13.6563 20.3144 13.3848 18.6641L10.4551 19.4277C11.0468 22.0527 12.5801 23.4942 15.0586 23.748V26H16.9531V23.7363C18.4395 23.5801 19.5762 23.0605 20.3633 22.1777C21.1504 21.2969 21.5449 20.1952 21.5449 18.873C21.5449 18.0118 21.3535 17.2598 20.9727 16.6152C20.5898 15.9727 20.08 15.4668 19.4395 15.1016C18.8008 14.7363 17.9179 14.3477 16.793 13.9375C15.7696 13.5606 15.0996 13.2461 14.7891 12.9922C14.4766 12.7363 14.3203 12.3711 14.3203 11.8945C14.3203 11.4277 14.4824 11.0293 14.8066 10.7012C15.1289 10.3731 15.5586 10.209 16.0938 10.209C17.1601 10.209 17.9453 10.9434 18.4551 12.4121L21.0645 11.3418C20.4415 9.19925 19.0703 8.00198 16.9531 7.74805V6H15.0586Z" fill="white"/>
+                        </svg>
+
+                    </div>
+                    <h3>Affordable Prices</h3>
+                    <p>We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer
+                        the best coverage
+                        possible.</p>
+                </div>
+                <div>
+                    <div class="icon_wrapper">
+                    <svg width="25" height="32" viewBox="0 0 25 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.8741 22.8741L16.7792 20.3269C16.2987 20.0864 16 19.6032 16 19.0656V17.2624C16.1221 17.1131 16.2507 16.9429 16.3835 16.7552C17.0443 15.8219 17.5739 14.7829 17.9589 13.6624C18.7115 13.3173 19.2 12.5733 19.2 11.7333V9.6C19.2 9.0864 19.008 8.5888 18.6667 8.2V5.3632C18.6965 5.06987 18.8139 3.32373 17.5509 1.8832C16.4555 0.6336 14.6779 0 12.2667 0C9.85547 0 8.07787 0.6336 6.9824 1.88267C5.71947 3.3232 5.8368 5.06987 5.86667 5.3632V8.2C5.52533 8.5888 5.33333 9.0864 5.33333 9.6V11.7333C5.33333 12.3824 5.62827 12.9877 6.13173 13.3915C6.62027 15.3259 7.64267 16.7835 8 17.2512V19.016C8 19.5323 7.7184 20.0059 7.2656 20.2533L2.50773 22.8485C0.960533 23.6928 0 25.3109 0 27.0731V28.8C0 31.3312 8.024 32 12.2667 32C16.5093 32 24.5333 31.3312 24.5333 28.8V27.1771C24.5333 25.3435 23.5141 23.6944 21.8741 22.8741Z" fill="white"/>
+                    </svg>
+
+                    </div>
+                    <h3>People First</h3>
+                    <p>Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered
+                        when you need it.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+
+</html>
