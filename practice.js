@@ -182,24 +182,8 @@ while(randomNumber != 4) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // for loop
-/* for (initializer; condition; incrementer) {
+/* for (initializer; condition; final expression) {
 } */
 
 for (let g = 0; g <= 5;) {
@@ -209,29 +193,16 @@ for (let g = 0; g <= 5;) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Task
-1. Write a loop
-*/
+ 1. Write a loop to iterate through the studets array
+ 2. During each loop - check if the array item is equal to Teacher
+ -  if it is equal to teacher, console.log the item and concatenate not a student to the end
+ -  if it isn't, console.log the item and concatenate is a student to the end
+ */
 
-
-
-const students = ["Munirat", "Oyin", "Kaycee", "Trix", "Aristotess", "Emmanuella", "Okpala", "Teacher", "Bad guy", "Mmesoma"];
+const students = ["Munirat", "Oyin", "Kaycee", "Trix",
+    "Aristotess", "Emmanuella", "Okpala", "Teacher",
+    "Bad guy", "Mmesoma"];
 
 for (let i = 0; i < students.length; i++){
     if(students[i] === "Teacher" || students[i] === "Bad guy"){
@@ -242,11 +213,29 @@ for (let i = 0; i < students.length; i++){
     }
 }
 
-/*
+/* functions
+
+- this is a type of object
+- used to execute code,
+- it can receive data
+- log() - this is a log function
 */
+
+
+// declare function
+function myFunction(data, name, age) {
+    // block of code that needs to be executed
+    console.log(date, name, age);
+}
+
+// invoke/call
+myFunction("Mmesoma", "Guehi", "Great defender";)
+
+nameOfFunction();
 
 function multiplyThreeToValue(value) {
     return value * 3;
+    // return, it returns the output of the expression 
 }
 
 let result = multiplyThreeToValue(5);
